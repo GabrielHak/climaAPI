@@ -1,0 +1,19 @@
+.hoy{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+    gap: 10px;
+    background-color: orange;
+}
+
+.hoy > li {
+    color: black;
+    background-color: white;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 3px;
+}

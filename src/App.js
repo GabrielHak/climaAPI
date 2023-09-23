@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import TempActual from './Components/TempActual';
+import Hoy from './Components/Hoy';
+import MaxMin from './Components/MaxMin';
+import Extras from './Components/Extras';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="clima">
+      <TempActual></TempActual>
+      <Hoy></Hoy>
+      <MaxMin></MaxMin>
+      <Extras></Extras>
     </div>
   );
 }

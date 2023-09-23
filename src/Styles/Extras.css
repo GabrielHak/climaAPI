@@ -1,0 +1,13 @@
+.extras{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: grey;
+}
+
+.extras > li{
+    background-color: lightgrey;
+    margin: 2px;
+    border-radius: 10px;
+}
